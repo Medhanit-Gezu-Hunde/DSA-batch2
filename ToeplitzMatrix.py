@@ -1,7 +1,7 @@
 class Solution:
     def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
         if not matrix:
-             return True
+             return false
         row=len(matrix)
         col=len(matrix[0])
         for i in range (row-1):
